@@ -1,0 +1,43 @@
+@import url("https://fonts.googleapis.com/css2?family=Exo+2:ital,wght@0,100..900;1,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Scrollbar Customized */
+/* width */
+::-webkit-scrollbar {
+  @apply w-1 h-1;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  @apply bg-primary;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  @apply bg-primary-hover rounded-md;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  @apply bg-dark-hover;
+}
+
+/* a {
+  @apply text-[18px] hover:text-blue-500 rounded transition-all duration-300;
+} */
+
+.blog_details_part p {
+  @apply text-justify my-3;
+}
+
+.active {
+  /* @apply flex justify-center items-center flex-col top-[60px] left-0 right-0 absolute w-[90%] mx-auto bg-slate-700 rounded space-y-5 py-5 transition-all; */
+  @apply fixed flex justify-center top-0 left-0 bottom-0 w-full bg-white lg:bg-primary px-4 z-50;
+}
+
+span.blur_pass {
+  @apply blur-[2.5px];
+}

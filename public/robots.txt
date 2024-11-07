@@ -1,0 +1,7 @@
+User-agent: *
+Disallow:
+
+Disallow: */admin*
+Disallow: */switch*
+
+Sitemap: https://correo-temporal.com/sitemap.xml
