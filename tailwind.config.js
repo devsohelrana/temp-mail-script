@@ -23,6 +23,7 @@ module.exports = {
     fontFamily: {
       poppins: "'Poppins', sans-serif",
       exo: "'Exo 2', sans-serif",
+      lexend: "'Lexend', sans-serif",
     },
     backgroundImage: {
       hero: "url(/assets/img/hero.svg)",
@@ -32,7 +33,7 @@ module.exports = {
       colors: {
         primary: {
           DEFAULT: "#5d719f24",
-          hover: "#111827",
+          hover: "#284990",
         },
         secondary: "4d5053",
         blue: {

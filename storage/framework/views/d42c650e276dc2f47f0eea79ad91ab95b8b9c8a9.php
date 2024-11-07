@@ -84,7 +84,7 @@
             
             <li>
                 <form wire:submit.prevent="random" method="post">
-                    <button type="submit"
+                    <button type="submit" aria-label="New Mail"
                         class="flex justify-center items-center gap-2 border border-dark-front rounded-lg px-2 py-1 font-poppins font-medium hover:bg-primary-hover dark:hover:bg-dark-hover hover:text-white transition-all duration-300 cursor-pointer select-none">
                         <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
                             stroke="currentColor" class="size-6 transition-transform duration-300 hover:rotate-180">

@@ -185,7 +185,7 @@
                 <div class="space-y-20 lg:space-y-10">
                     <!-- Priyo mail bio -->
                     <div class="max-w-[600px] mx-auto flex justify-center items-center flex-col">
-                        <h2 class="text-3xl font-exo font-bold py-4">Priyo Mail</h2>
+                        <h2 class="text-3xl font-lexend font-bold py-4">Priyo Mail</h2>
                         <p class="text-center text-lg"><?php echo e(__('Create Temp Mail in Just second.')); ?></p>
                         <p class="text-center text-lg"><?php echo e(__('Temp Mail Protects Your Privacy.')); ?></p>
                         <p class="text-center text-lg"><?php echo e(__('Temp Mail Safely and Securely.')); ?></p>
@@ -213,7 +213,7 @@
                 <div class="space-y-20 lg:space-y-10">
                     <!-- Priyo mail bio -->
                     <div class="max-w-[600px] mx-auto flex justify-center items-center flex-col">
-                        <h2 class="text-3xl font-exo font-bold py-4">Priyo Mail</h2>
+                        <h2 class="text-3xl font-lexend font-bold py-4">Priyo Mail</h2>
                         <p class="text-center text-lg"><?php echo e(__('Create Temp Mail in Just second.')); ?></p>
                         <p class="text-center text-lg"><?php echo e(__('Temp Mail Protects Your Privacy.')); ?></p>
                         <p class="text-center text-lg"><?php echo e(__('Temp Mail Safely and Securely.')); ?></p>

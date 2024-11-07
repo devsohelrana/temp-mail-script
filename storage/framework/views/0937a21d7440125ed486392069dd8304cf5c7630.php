@@ -21,11 +21,8 @@
         </div>
     <?php endforeach; $__env->popLoop(); $loop = $__env->getLastLoop(); ?>
 
-
-
-
 </div>
-<div class="pagination-links">
+<div class="pagination-links my-10">
     <?php echo e($blogs->links()); ?>
 
 </div>

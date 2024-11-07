@@ -22,7 +22,8 @@
                 <form action="<?php echo e(route('locale', '')); ?>" id="locale-form" method="post">
                     <?php echo csrf_field(); ?>
                     <!-- Dropdown for selecting language -->
-                    <select class="bg-[#374151] h-8 px-2 rounded-lg text-white uppercase cursor-pointer" name="locale"
+                    <select aria-label="language"
+                        class="bg-[#374151] h-8 px-2 rounded-lg text-white uppercase cursor-pointer" name="locale"
                         id="locale">
                         <?php $__currentLoopData = config('app.locales'); $__env->addLoop($__currentLoopData); foreach($__currentLoopData as $locale): $__env->incrementLoopIndices(); $loop = $__env->getLastLoop(); ?>
                             <option <?php echo e(app()->getLocale() == $locale ? 'selected' : ''); ?>>
@@ -149,12 +150,9 @@
 <?php endif; ?>
 
                         
-                        <?php if (isset($component)) { $__componentOriginalc254754b9d5db91d5165876f9d051922ca0066f4 = $component; } ?>
-<?php $component = $__env->getContainer()->make(Illuminate\View\AnonymousComponent::class, ['view' => 'jetstream::components.dropdown-link','data' => ['wire:click' => 'logoutEmail']]); ?>
-<?php $component->withName('jet-dropdown-link'); ?>
-<?php if ($component->shouldRender()): ?>
-<?php $__env->startComponent($component->resolveView(), $component->data()); ?>
-<?php $component->withAttributes(['wire:click' => 'logoutEmail']); ?>
+                        <button
+                            class="flex gap-2 px-4 py-2 text-md leading-5 hover:bg-primary-hover dark:hover:bg-dark-hover hover:text-white transition-all duration-300 cursor-pointer"
+                            wire:click="logoutEmail">
                             <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24"
                                 stroke-width="1.5" stroke="currentColor" class="size-6">
                                 <path stroke-linecap="round" stroke-linejoin="round"
@@ -163,12 +161,7 @@
 
                             <?php echo e(__('Logout')); ?>
 
-                         <?php echo $__env->renderComponent(); ?>
-<?php endif; ?>
-<?php if (isset($__componentOriginalc254754b9d5db91d5165876f9d051922ca0066f4)): ?>
-<?php $component = $__componentOriginalc254754b9d5db91d5165876f9d051922ca0066f4; ?>
-<?php unset($__componentOriginalc254754b9d5db91d5165876f9d051922ca0066f4); ?>
-<?php endif; ?>
+                        </button>
 
                         
                         <span class="px-4">
