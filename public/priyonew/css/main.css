@@ -726,10 +726,6 @@ video {
   grid-column: span 6 / span 6;
 }
 
-.m-0{
-  margin: 0px;
-}
-
 .m-2{
   margin: 0.5rem;
 }
@@ -1759,10 +1755,6 @@ video {
 
 .bg-\[\#84ace71a\]{
   background-color: #84ace71a;
-}
-
-.bg-\[\#84ace767\]{
-  background-color: #84ace767;
 }
 
 .bg-\[\#f1f1f1\]{
