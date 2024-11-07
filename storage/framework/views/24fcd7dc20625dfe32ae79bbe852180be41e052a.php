@@ -20,7 +20,7 @@
     <?php endif; ?>
 
     
-    <link rel="stylesheet" href="<?php echo e(asset('priyonew/css/priyonew.css')); ?>?v=1.0.5">
+    <link rel="stylesheet" href="<?php echo e(asset('priyonew/css/priyonew.css')); ?>?v=1.0.0">
 
     <script src="<?php echo e(asset('vendor/Shortcode/Shortcode.js')); ?>"></script>
     <script src="<?php echo e(asset('js/app.js')); ?>" defer></script>
@@ -173,15 +173,15 @@
         <?php
 if (! isset($_instance)) {
     $html = \Livewire\Livewire::mount('frontend.nav')->html();
-} elseif ($_instance->childHasBeenRendered('MIY0Q0b')) {
-    $componentId = $_instance->getRenderedChildComponentId('MIY0Q0b');
-    $componentTag = $_instance->getRenderedChildComponentTagName('MIY0Q0b');
+} elseif ($_instance->childHasBeenRendered('kh0uUvS')) {
+    $componentId = $_instance->getRenderedChildComponentId('kh0uUvS');
+    $componentTag = $_instance->getRenderedChildComponentTagName('kh0uUvS');
     $html = \Livewire\Livewire::dummyMount($componentId, $componentTag);
-    $_instance->preserveRenderedChild('MIY0Q0b');
+    $_instance->preserveRenderedChild('kh0uUvS');
 } else {
     $response = \Livewire\Livewire::mount('frontend.nav');
     $html = $response->html();
-    $_instance->logRenderedChild('MIY0Q0b', $response->id(), \Livewire\Livewire::getRootElementTagName($html));
+    $_instance->logRenderedChild('kh0uUvS', $response->id(), \Livewire\Livewire::getRootElementTagName($html));
 }
 echo $html;
 ?>
@@ -196,15 +196,15 @@ echo $html;
             <?php
 if (! isset($_instance)) {
     $html = \Livewire\Livewire::mount('frontend.actions', ['in_app' => isset($page) ? true : false])->html();
-} elseif ($_instance->childHasBeenRendered('Ho06nN7')) {
-    $componentId = $_instance->getRenderedChildComponentId('Ho06nN7');
-    $componentTag = $_instance->getRenderedChildComponentTagName('Ho06nN7');
+} elseif ($_instance->childHasBeenRendered('hXvu6Ql')) {
+    $componentId = $_instance->getRenderedChildComponentId('hXvu6Ql');
+    $componentTag = $_instance->getRenderedChildComponentTagName('hXvu6Ql');
     $html = \Livewire\Livewire::dummyMount($componentId, $componentTag);
-    $_instance->preserveRenderedChild('Ho06nN7');
+    $_instance->preserveRenderedChild('hXvu6Ql');
 } else {
     $response = \Livewire\Livewire::mount('frontend.actions', ['in_app' => isset($page) ? true : false]);
     $html = $response->html();
-    $_instance->logRenderedChild('Ho06nN7', $response->id(), \Livewire\Livewire::getRootElementTagName($html));
+    $_instance->logRenderedChild('hXvu6Ql', $response->id(), \Livewire\Livewire::getRootElementTagName($html));
 }
 echo $html;
 ?>
@@ -224,15 +224,15 @@ echo $html;
                             <?php
 if (! isset($_instance)) {
     $html = \Livewire\Livewire::mount('frontend.app')->html();
-} elseif ($_instance->childHasBeenRendered('Gr2kKnB')) {
-    $componentId = $_instance->getRenderedChildComponentId('Gr2kKnB');
-    $componentTag = $_instance->getRenderedChildComponentTagName('Gr2kKnB');
+} elseif ($_instance->childHasBeenRendered('2xAuivn')) {
+    $componentId = $_instance->getRenderedChildComponentId('2xAuivn');
+    $componentTag = $_instance->getRenderedChildComponentTagName('2xAuivn');
     $html = \Livewire\Livewire::dummyMount($componentId, $componentTag);
-    $_instance->preserveRenderedChild('Gr2kKnB');
+    $_instance->preserveRenderedChild('2xAuivn');
 } else {
     $response = \Livewire\Livewire::mount('frontend.app');
     $html = $response->html();
-    $_instance->logRenderedChild('Gr2kKnB', $response->id(), \Livewire\Livewire::getRootElementTagName($html));
+    $_instance->logRenderedChild('2xAuivn', $response->id(), \Livewire\Livewire::getRootElementTagName($html));
 }
 echo $html;
 ?>
@@ -240,15 +240,15 @@ echo $html;
                         <?php
 if (! isset($_instance)) {
     $html = \Livewire\Livewire::mount('frontend.page', ['page' => $page])->html();
-} elseif ($_instance->childHasBeenRendered('T0v7Jo5')) {
-    $componentId = $_instance->getRenderedChildComponentId('T0v7Jo5');
-    $componentTag = $_instance->getRenderedChildComponentTagName('T0v7Jo5');
+} elseif ($_instance->childHasBeenRendered('0YNow8Z')) {
+    $componentId = $_instance->getRenderedChildComponentId('0YNow8Z');
+    $componentTag = $_instance->getRenderedChildComponentTagName('0YNow8Z');
     $html = \Livewire\Livewire::dummyMount($componentId, $componentTag);
-    $_instance->preserveRenderedChild('T0v7Jo5');
+    $_instance->preserveRenderedChild('0YNow8Z');
 } else {
     $response = \Livewire\Livewire::mount('frontend.page', ['page' => $page]);
     $html = $response->html();
-    $_instance->logRenderedChild('T0v7Jo5', $response->id(), \Livewire\Livewire::getRootElementTagName($html));
+    $_instance->logRenderedChild('0YNow8Z', $response->id(), \Livewire\Livewire::getRootElementTagName($html));
 }
 echo $html;
 ?>
@@ -256,15 +256,15 @@ echo $html;
                         <?php
 if (! isset($_instance)) {
     $html = \Livewire\Livewire::mount('frontend.profile', ['profile' => $profile])->html();
-} elseif ($_instance->childHasBeenRendered('0JZEO9t')) {
-    $componentId = $_instance->getRenderedChildComponentId('0JZEO9t');
-    $componentTag = $_instance->getRenderedChildComponentTagName('0JZEO9t');
+} elseif ($_instance->childHasBeenRendered('YiKcyEy')) {
+    $componentId = $_instance->getRenderedChildComponentId('YiKcyEy');
+    $componentTag = $_instance->getRenderedChildComponentTagName('YiKcyEy');
     $html = \Livewire\Livewire::dummyMount($componentId, $componentTag);
-    $_instance->preserveRenderedChild('0JZEO9t');
+    $_instance->preserveRenderedChild('YiKcyEy');
 } else {
     $response = \Livewire\Livewire::mount('frontend.profile', ['profile' => $profile]);
     $html = $response->html();
-    $_instance->logRenderedChild('0JZEO9t', $response->id(), \Livewire\Livewire::getRootElementTagName($html));
+    $_instance->logRenderedChild('YiKcyEy', $response->id(), \Livewire\Livewire::getRootElementTagName($html));
 }
 echo $html;
 ?>
@@ -272,15 +272,15 @@ echo $html;
                         <?php
 if (! isset($_instance)) {
     $html = \Livewire\Livewire::mount('frontend.userlogin', ['login' => $login])->html();
-} elseif ($_instance->childHasBeenRendered('6sT0zwe')) {
-    $componentId = $_instance->getRenderedChildComponentId('6sT0zwe');
-    $componentTag = $_instance->getRenderedChildComponentTagName('6sT0zwe');
+} elseif ($_instance->childHasBeenRendered('1ZFConm')) {
+    $componentId = $_instance->getRenderedChildComponentId('1ZFConm');
+    $componentTag = $_instance->getRenderedChildComponentTagName('1ZFConm');
     $html = \Livewire\Livewire::dummyMount($componentId, $componentTag);
-    $_instance->preserveRenderedChild('6sT0zwe');
+    $_instance->preserveRenderedChild('1ZFConm');
 } else {
     $response = \Livewire\Livewire::mount('frontend.userlogin', ['login' => $login]);
     $html = $response->html();
-    $_instance->logRenderedChild('6sT0zwe', $response->id(), \Livewire\Livewire::getRootElementTagName($html));
+    $_instance->logRenderedChild('1ZFConm', $response->id(), \Livewire\Livewire::getRootElementTagName($html));
 }
 echo $html;
 ?>
@@ -288,15 +288,15 @@ echo $html;
                         <?php
 if (! isset($_instance)) {
     $html = \Livewire\Livewire::mount('frontend.usersignup', ['signup' => $signup])->html();
-} elseif ($_instance->childHasBeenRendered('B0PobFn')) {
-    $componentId = $_instance->getRenderedChildComponentId('B0PobFn');
-    $componentTag = $_instance->getRenderedChildComponentTagName('B0PobFn');
+} elseif ($_instance->childHasBeenRendered('eSVtu1H')) {
+    $componentId = $_instance->getRenderedChildComponentId('eSVtu1H');
+    $componentTag = $_instance->getRenderedChildComponentTagName('eSVtu1H');
     $html = \Livewire\Livewire::dummyMount($componentId, $componentTag);
-    $_instance->preserveRenderedChild('B0PobFn');
+    $_instance->preserveRenderedChild('eSVtu1H');
 } else {
     $response = \Livewire\Livewire::mount('frontend.usersignup', ['signup' => $signup]);
     $html = $response->html();
-    $_instance->logRenderedChild('B0PobFn', $response->id(), \Livewire\Livewire::getRootElementTagName($html));
+    $_instance->logRenderedChild('eSVtu1H', $response->id(), \Livewire\Livewire::getRootElementTagName($html));
 }
 echo $html;
 ?>
@@ -304,15 +304,15 @@ echo $html;
                         <?php
 if (! isset($_instance)) {
     $html = \Livewire\Livewire::mount('frontend.blog', ['blog' => $blog])->html();
-} elseif ($_instance->childHasBeenRendered('aVnQIwV')) {
-    $componentId = $_instance->getRenderedChildComponentId('aVnQIwV');
-    $componentTag = $_instance->getRenderedChildComponentTagName('aVnQIwV');
+} elseif ($_instance->childHasBeenRendered('4lr58Y7')) {
+    $componentId = $_instance->getRenderedChildComponentId('4lr58Y7');
+    $componentTag = $_instance->getRenderedChildComponentTagName('4lr58Y7');
     $html = \Livewire\Livewire::dummyMount($componentId, $componentTag);
-    $_instance->preserveRenderedChild('aVnQIwV');
+    $_instance->preserveRenderedChild('4lr58Y7');
 } else {
     $response = \Livewire\Livewire::mount('frontend.blog', ['blog' => $blog]);
     $html = $response->html();
-    $_instance->logRenderedChild('aVnQIwV', $response->id(), \Livewire\Livewire::getRootElementTagName($html));
+    $_instance->logRenderedChild('4lr58Y7', $response->id(), \Livewire\Livewire::getRootElementTagName($html));
 }
 echo $html;
 ?>
@@ -320,15 +320,15 @@ echo $html;
                         <?php
 if (! isset($_instance)) {
     $html = \Livewire\Livewire::mount('frontend.blogdetails', ['blogDetails' => $blogDetails])->html();
-} elseif ($_instance->childHasBeenRendered('xph4f0j')) {
-    $componentId = $_instance->getRenderedChildComponentId('xph4f0j');
-    $componentTag = $_instance->getRenderedChildComponentTagName('xph4f0j');
+} elseif ($_instance->childHasBeenRendered('P7fuqKj')) {
+    $componentId = $_instance->getRenderedChildComponentId('P7fuqKj');
+    $componentTag = $_instance->getRenderedChildComponentTagName('P7fuqKj');
     $html = \Livewire\Livewire::dummyMount($componentId, $componentTag);
-    $_instance->preserveRenderedChild('xph4f0j');
+    $_instance->preserveRenderedChild('P7fuqKj');
 } else {
     $response = \Livewire\Livewire::mount('frontend.blogdetails', ['blogDetails' => $blogDetails]);
     $html = $response->html();
-    $_instance->logRenderedChild('xph4f0j', $response->id(), \Livewire\Livewire::getRootElementTagName($html));
+    $_instance->logRenderedChild('P7fuqKj', $response->id(), \Livewire\Livewire::getRootElementTagName($html));
 }
 echo $html;
 ?>
@@ -336,15 +336,15 @@ echo $html;
                         <?php
 if (! isset($_instance)) {
     $html = \Livewire\Livewire::mount('frontend.app')->html();
-} elseif ($_instance->childHasBeenRendered('dGWbccu')) {
-    $componentId = $_instance->getRenderedChildComponentId('dGWbccu');
-    $componentTag = $_instance->getRenderedChildComponentTagName('dGWbccu');
+} elseif ($_instance->childHasBeenRendered('k6EGCeH')) {
+    $componentId = $_instance->getRenderedChildComponentId('k6EGCeH');
+    $componentTag = $_instance->getRenderedChildComponentTagName('k6EGCeH');
     $html = \Livewire\Livewire::dummyMount($componentId, $componentTag);
-    $_instance->preserveRenderedChild('dGWbccu');
+    $_instance->preserveRenderedChild('k6EGCeH');
 } else {
     $response = \Livewire\Livewire::mount('frontend.app');
     $html = $response->html();
-    $_instance->logRenderedChild('dGWbccu', $response->id(), \Livewire\Livewire::getRootElementTagName($html));
+    $_instance->logRenderedChild('k6EGCeH', $response->id(), \Livewire\Livewire::getRootElementTagName($html));
 }
 echo $html;
 ?>
@@ -378,9 +378,9 @@ echo $html;
             class="w-full h-[5vh] bg-[#f1f1f1] dark:bg-dark flex justify-center items-center lg:fixed left-0 bottom-0 lg:w-80 border-t lg:border-teal-50 dark:lg:border-dark-line border-t-slate-200 z-50 text-lg font-medium">
             <p>
                 © 2024
-                <a href="#" target="_blank"
+                <a href="https://priyo.email/" target="_blank"
                     class="text-blue-600 dark:text-green-500 hover:text-cyan-500 transition-all duration-500">Priyo
-                    Mail</a>
+                    Email</a>
             </p>
         </footer>
 
