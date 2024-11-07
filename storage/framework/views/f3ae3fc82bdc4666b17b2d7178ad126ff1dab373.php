@@ -1,5 +1,5 @@
 <div class="grid grid-cols-1 lg:grid-cols-[3fr_1fr] gap-4">
-    <div class="blog_details_part">
+    <div class="blog_details_part overflow-hidden">
         <h1 class="text-lg md:text-xl font-poppins font-semibold"><?php echo e($blogDetails->title); ?></h1>
         <p><i><?php echo e($blogDetails->updated_at->format('d M Y')); ?></i></p>
         <div class="w-full max-h-72 my-4 text-center rounded-lg object-center overflow-hidden">
@@ -18,7 +18,7 @@
         <?php echo $blogDetails->content; ?>
 
     </div>
-    <div class="blog_sidebar hidden md:block">
+    <div class="blog_sidebar hidden md:block overflow-hidden">
         <div class="blog_prio_content_sc">
             <div class="grid grid-flow-row-dense grid-cols-2 gap-2">
                 <?php $__currentLoopData = $blogs; $__env->addLoop($__currentLoopData); foreach($__currentLoopData as $blog): $__env->incrementLoopIndices(); $loop = $__env->getLastLoop(); ?>
